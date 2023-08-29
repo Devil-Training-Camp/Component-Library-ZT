@@ -1,0 +1,35 @@
+.ea-list-container {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+  position: relative;
+  /* 控制元素在移动设备上面是否有滚动回弹效果，属性为auto、touch
+      
+      auto: 使用普通滚动, 当手指从触摸屏上移开，滚动会立即停止。
+      touch: 使用具有回弹效果的滚动,
+          当手指从触摸屏上移开，内容会继续保持一段时间的滚动效果。
+          继续滚动的速度和持续的时间和滚动手势的强烈程度成正比。
+          
+      */
+  -webkit-overflow-scrolling: touch;
+}
+.ea-pillarDom {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ea-list-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.ea-list-item {
+  box-sizing: border-box;
+  width: 100%;
+}

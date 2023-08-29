@@ -1,0 +1,28 @@
+{
+    "name": "easyest-zhao",
+    "version": "1.0.2",
+    "main": "index.js",
+    "module": "es/index.mjs",
+    "files": [
+        "es",
+        "lib"
+    ],
+    "keywords": [
+        "easyest",
+        "vue3组件库"
+    ],
+    "sideEffects": [
+        "**/*.css"
+    ],
+    "author": "zhao",
+    "license": "ISC",
+    "description": "",
+    "typings": "lib/index.d.ts",
+    "scripts": {
+        "release": "release-it"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://www.npmjs.com/package/easyest-zhao"
+    }
+}
